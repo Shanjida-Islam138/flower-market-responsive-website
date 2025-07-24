@@ -34,6 +34,7 @@
 .text-p{
   font-size: 22px;
   font-weight: 400px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .text-flower-name{
   color: #111111;
@@ -56,6 +57,7 @@
 .navbar{
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 120px;
 }
 .nav-item{
   list-style: none;
@@ -93,4 +95,35 @@
 }
 ul{
   margin-top: 35.5px;
+}
+
+/* Banner related styles */
+
+
+.banner-title{
+  font-size: 65px;
+  margin-bottom: 13px;
+
+}
+.banner-description{
+  width: 570px;
+  height: 108px;
+}
+.banner-pic{
+  width: 570px;
+  height: 355px;
+  margin-top: 226px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.banner-content{
+  width: 570px;
+  height: 299px;
+  margin-top: 162px;
+  
+  
 }
