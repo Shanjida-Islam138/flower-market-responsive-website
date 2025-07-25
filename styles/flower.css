@@ -531,19 +531,19 @@ ul{
   border-radius: 8px;
 }
 
-  .banner-content {
+.banner-content {
     width: 100%;
     margin-top: 24px;
     order: 2;
     text-align: left;
   }
 
-  .banner-title {
+.banner-title {
     font-size: 32px;
     margin-bottom: 16px;
   }
 
-  .banner-description {
+.banner-description {
     width: 100%;
     font-size: 14px;
     line-height: 1.6;
@@ -553,38 +553,38 @@ ul{
     padding: 0 16px 40px 16px;
   }
 
-  .section-title {
+.section-title {
     font-size: 32px;
-    margin: 5px 0 16px 0; /* 🟢 Top 5px — আরও উপরে উঠবে */
+    margin: 5px 0 16px 0; 
     text-align: center;
-  }
+}
 
-  .section-description {
+.section-description {
     width: 336px;
     margin: 0 auto 30px auto;
     font-size: 14px;
     text-align: center;
     line-height: 1.6;
-    white-space: pre-line;   /* ⬅️ Line break support */
+    white-space: pre-line;  
     word-break: break-word;
     height: auto;
     overflow: visible;
-  }
+}
 
-  .categories-container {
+.categories-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     padding: 0 10px;
     box-sizing: border-box;
-  }
+}
 
-  .category {
+.category {
     width: 100%;
     text-align: center;
   }
 
-  .category img {
+.category img {
     width: 100%;
     height: auto;
     display: block;
@@ -592,22 +592,22 @@ ul{
     margin-bottom: 12px;
   }
 
-  .btn {
+.btn {
     width: 100%;
     padding: 12px 0;
     font-size: 16px;
     font-weight: 600;
   }
   /* plant lover section */
-  .Plants-Lover-section {
+.Plants-Lover-section {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 50px;
     padding: 0 16px;
     gap: 20px;
-  }
+}
 
-  .image-area {
+.image-area {
     width: 100%;
     height: auto;
     margin-right: 0;
@@ -649,7 +649,70 @@ ul{
     margin-bottom: 6px;
     text-indent: 0;             
   }
+  /* Latest Deals */
+  .latest-deals {
+    padding: 0 16px;
+    margin-top: 50px;
+  }
 
+  .deals-title {
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+
+ .section-subtitle {
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  width: 100%;
+  max-width: 320px; 
+  margin: 0 auto 40px; 
 }
 
+ .deals-container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  margin-top: 24px; 
+}
+  .deal-left {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 20px;
+  }
 
+  .deal-card,
+  .deal-right {
+    width: 100%;          
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;  
+  }
+
+  .deal-content {
+    padding: 20px;
+  }
+
+  .offer-title {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .zabo-offer {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .shop-now-link,
+  .link {
+    font-size: 16px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 8px;
+  }
+}
