@@ -465,3 +465,139 @@ ul{
   align-items: center;
   flex: 1 1 150px;
 }
+/* responsive */
+@media (max-width: 576px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 20px;
+    margin-bottom: 60px;
+  }
+
+  .logo {
+    width: 110px;
+    height: auto;
+    margin: 0;
+    display: block;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;  
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-item:not(:last-child) {
+    display: none;
+  }
+
+  .nav-item:last-child {
+    margin: 0;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    display: flex;
+    align-items: center; 
+    line-height: 1;       
+  }
+
+  .nav-link i {
+    margin-right: 6px;
+    font-size: 16px;      
+    vertical-align: middle;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  /* banner */
+.banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px; 
+  }
+
+.banner-pic {
+  width: 100vw; 
+  margin-left: -20px;
+  margin-right: -20px;
+  height: auto;
+  margin-top: 40px;
+  order: 1;
+  border-radius: 8px;
+}
+
+  .banner-content {
+    width: 100%;
+    margin-top: 24px;
+    order: 2;
+    text-align: left;
+  }
+
+  .banner-title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .banner-description {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  /* Plants Section */
+.categories {
+    padding: 0 16px 40px 16px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin: 5px 0 16px 0; /* 🟢 Top 5px — আরও উপরে উঠবে */
+    text-align: center;
+  }
+
+  .section-description {
+    width: 336px;
+    margin: 0 auto 30px auto;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.6;
+    white-space: pre-line;   /* ⬅️ Line break support */
+    word-break: break-word;
+    height: auto;
+    overflow: visible;
+  }
+
+  .categories-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .category {
+    width: 100%;
+    text-align: center;
+  }
+
+  .category img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+
