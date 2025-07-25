@@ -359,6 +359,50 @@ ul{
   transform: scale(1.05);
   z-index: -1;
 }
+/* bunch section */
+.hero-section {
+  width: 1440px;
+  height: 533px;
+  background: url("../assets/news-letter-bg.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
 
+.hero-section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+
+}
+
+.subscribe-box {
+  display: flex;
+  width: 830px;
+  height: 50px;
+}
+
+.subscribe-box input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  
+}
+
+.subscribe-box button {
+  background: #E95A08;
+  color: white;
+  border: none;
+  padding: 19px 53.5px 19px 53.5px;
+  font-size: 16px;
+  font-weight: 600px;
+  cursor: pointer;
+}
 
 
