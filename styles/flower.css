@@ -168,6 +168,7 @@ ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   
 }
 .image-area {
@@ -183,13 +184,14 @@ ul{
 .text-area-des {
   
   width: 540px;
-  height: 108px;
-  justify-content: center;
+  
+  
 }
 .text-area{
   width: 540px;
-  height: 521px;
+ 
   padding-top: 38px;
+  padding-bottom: 38px;
 }
 .text-area-h1 {
   font-size: 50px;
