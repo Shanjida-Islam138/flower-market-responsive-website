@@ -184,12 +184,9 @@ ul{
 .text-area-des {
   
   width: 540px;
-  
-  
 }
 .text-area{
   width: 540px;
- 
   padding-top: 38px;
   padding-bottom: 38px;
 }
@@ -211,7 +208,7 @@ ul{
   filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
 }
 
-/* Latest Deals section */
+
 /* Latest Deals section */
 .latest-deals {
   margin-bottom: 120px;
@@ -229,18 +226,10 @@ ul{
 
 .section-subtitle {
   text-align: center;
-  color: #6b7280; /* Tailwind's gray-500 */
+  color: #6b7280; 
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 40px;
-}
-
-.text-orange {
-  color: #f97316; /* Tailwind's orange-500 */
-}
-
-.text-black {
-  color: #000;
 }
 
 .deals-container {
@@ -277,7 +266,6 @@ ul{
   position: relative;
   border-radius: 14px;
   overflow: hidden;
-  
 }
 
 .deal-card img {
@@ -298,15 +286,7 @@ ul{
   align-items: center;
   text-align: center;
 } 
-.bloom-card{
-  background-image: url("../assets/deal-bloom.png");
-}
-.ana-card{
-  background-image: url("../assets/deal-ana.png");
-}
-.zabo-card{
-  background-image: url("../assets/deal-zabo.png");
-}
+
 .offer-title{
   font-size: 20px;
   font-weight: bold;
@@ -326,5 +306,59 @@ ul{
   font-weight: 600px;
   color: #FFFFFF;
 }
+.deal-card,
+.deal-right {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px; 
+}
+
+.bloom-card,
+.ana-card,
+.zabo-card {
+  background: none;
+  position: relative;
+  isolation: isolate;
+}
+
+.bloom-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/deal-bloom.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(1.5px); 
+  transform: scale(1.05);
+  z-index: -1;
+}
+
+.ana-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/deal-ana.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(1.5px);
+  transform: scale(1.05);
+  z-index: -1;
+}
+
+.zabo-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/deal-zabo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(1.5px);
+  transform: scale(1.05);
+  z-index: -1;
+}
+
 
 
