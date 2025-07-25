@@ -87,7 +87,7 @@
   color: #000000;
 }
 
-.navbar, .banner, .categories-container,.Plants-Lover-section{
+.navbar, .banner, .categories-container,.Plants-Lover-section, .footer{
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -405,4 +405,56 @@ ul{
   cursor: pointer;
 }
 
+/* Footer section styles */
+.footer {
+  padding: 50px 160px;
+}
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap; /* prevent wrapping */
+  gap: 40px;
+}
+
+.footer-left {
+  flex: 0 0 359px;
+}
+
+.footer-left img, .footer-logo {
+  width: 135px;
+  height: 82px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-links {
+  display: flex;
+  gap: 110.67px;
+  flex: 0 0 auto;
+}
+
+.footer-links ul {
+  width: 150px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 32px;
+  font-size: 16px;
+  color: gray;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex: 0 0 auto;
+}
