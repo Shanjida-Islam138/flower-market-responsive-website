@@ -47,8 +47,11 @@
   font-size: 16px;
   padding: 19px 80px 19px 80px;
   background-color: #E95A08;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  border: none;
+  
+}
+.text-center{
+  text-align: center;
 }
 /* header styles */
 
@@ -84,7 +87,7 @@
   color: #000000;
 }
 
-.navbar, .banner{
+.navbar, .banner, .categories-container,.Plants-Lover-section{
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -124,6 +127,120 @@ ul{
   width: 570px;
   height: 299px;
   margin-top: 162px;
-  
+}
+
+/* our plant styles */
+.section-description{
+  margin-left: 126px;
+  margin-right: 126px;
+  margin-bottom: 49px;
+}
+.section-title{
+  font-size: 50px;
+  margin-bottom: 16px;
+
+}
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+.plant-img{
+  width: 270px;
+  height: 322.94px;
+  margin-bottom: 30px;
+}
+.plant-price{
+  color: #111111;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.plant-title{
+  margin-bottom: 20px;
+}
+/*  Plants Lover section styles */
+
+.Plants-Lover-section {
+
+  margin-top: 226.13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
 }
+.image-area {
+  width: 540px;
+  height: 597px;
+  margin-right: 60px;
+  position: relative;
+} 
+.main-img {
+  width: 540px;
+  height: 597px;
+}
+.text-area-des {
+  
+  width: 540px;
+  height: 108px;
+  justify-content: center;
+}
+.text-area{
+  width: 540px;
+  height: 521px;
+  padding-top: 38px;
+}
+.text-area-h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 38px;
+  margin-top: 38px;
+}
+.trusted-badge {
+  position: absolute;
+  top: -140px;
+  right: -100px;
+  width: 286px;
+  height: 286px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+/* 
+
+}
+
+.image-area .main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-area .badge-img {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 120px;
+  height: auto;
+  z-index: 10;
+}
+
+
+
+.
+
+.text-area ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.text-area li {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+} */
